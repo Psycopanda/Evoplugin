@@ -1,0 +1,24 @@
+name: Evoplugin
+version: 1.0
+main: fr.evoplugin.Evoplugin
+api-version: 1.18
+commands:
+  rules:
+    description: Commande qui permet de diriger le joueur sur le site d'Evolium avec les règles
+    permission: rules.use
+    aliases:
+      - regles
+  site:
+    description: Ceci est une commande qui dirige vers le site d'Evolium
+    permission: site.use
+  discord:
+    description: Commande qui permet à un joueur de trouver le discord d'Evolium
+    permission: discord.use
+    aliases:
+      - ds
+  broadcast:
+    description: Ceci est une commande de test
+    permission: broadcast.use
+    aliases:
+      - bc
+      - annonce
