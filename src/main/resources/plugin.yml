@@ -3,6 +3,9 @@ version: 1.0
 main: fr.evoplugin.Evoplugin
 api-version: 1.18
 commands:
+  spawn:
+    description: Commande qui téléporte le joueur au spawn
+    permission: spawn.use
   rules:
     description: Commande qui permet de diriger le joueur sur le site d'Evolium avec les règles
     permission: rules.use
